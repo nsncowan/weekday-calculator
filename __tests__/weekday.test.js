@@ -1,8 +1,8 @@
-import Weekday from './../src/weekday.js';
+import Calculator from './../src/weekday.js';
 
-describe('Weekday', () => {
+describe('Calculator', () => {
   test('should return index of date inputted', () => {
-    const weekday = new Weekday('December, 18, 2022');
-    expect(weekday.getDay()).toEqual(0);
+    const weekday = new Calculator('December, 18, 2022');
+    expect(weekday.dayOfWeek()).toEqual(0);
   });
 })
